@@ -22,16 +22,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'robot_move = somacube.robot_move:main',
             'detection = somacube.detection:main',
-            'RL_with_robot = somacube.RL_with_robot:main',
-            'RL_with_robot2 = somacube.RL_with_robot2:main',
-            'RL_with_robot3 = somacube.RL_with_robot3:main',
-            'secret = somacube.re_game_somacube:main',
-            'secret2 = somacube.re_game_somacube_three_execute:main',
-            'sim = somacube.move_simul:main',
-            'take1 = somacube.somacube_take_1:main',
-            'take2 = somacube.somacube_take_2:main',
             'ultra = somacube.ultra_RL:main',
         ],
     },
